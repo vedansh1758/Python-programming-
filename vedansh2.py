@@ -1,3 +1,9 @@
-#Write a program to multiply a number by 32 using bitwise operator.
-n=int(input("enter the number"))
-print("The multiplied value is %d"%(n<<5))
+#write a program to enter the side of triangles and find triangle can be formed or not.
+x=int(input("enter 1st side"))
+y=int(input("enter 2nd side"))
+z=int(input("enter 3rd side"))
+if((x+y)>z and (x+z)>y and (y+z)>x):
+	print("Valid triangle")
+else:
+	print("Invalid triangle")
+
